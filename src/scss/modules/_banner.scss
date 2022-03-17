@@ -13,4 +13,18 @@
 			z-index: 1;
 		}
 	}
+
+	&__image-wrapper{
+		position: absolute;
+		bottom: 0;
+		top: 0;
+	}
+
+	&__image{
+		position: absolute;
+		max-height: calc(100% + 7rem) !important;
+		max-width: 100%;
+		bottom: 0;
+		margin: 0 auto;
+	}
 }

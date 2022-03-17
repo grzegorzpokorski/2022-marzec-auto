@@ -1,0 +1,17 @@
+.single{
+
+	&__column{
+		display: flex;
+		flex-direction: column;
+		row-gap: $spacer * 2;
+	}
+
+	&__content{
+		background-color: $white;
+		padding: $spacer * 2;
+	}
+
+	&__price-box{
+		top: $spacer * 1.5;
+	}
+}
