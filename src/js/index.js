@@ -5,22 +5,24 @@ const galleryInit = () => {
 	const sections = document.querySelectorAll('.gallery');
 
 	sections.forEach(section => {
-		const slider = section.querySelector('.hero-slider');
-		const controls = section.querySelector('.hero-slider__controls');
+		const slider = section.querySelector('.gallery__content');
+		const controls = section.querySelector('.gallery__controls');
 
 		const heroSlider = tns({
 			container: slider,
+			controls: false, //
+			nav: false, //
 			controlsContainer: controls,
 			mode: 'carousel',
-			items: 1,
-			slideBy: 'page',
+			// items: 1,
+			// slideBy: 'page',
 			navPosition: 'bottom',
 			mouseDrag: true,
 			autoHeight: true,
 			autoplay: false,
-			autoplayHoverPause: true,
+			// autoplayHoverPause: true,
 			autoplayButtonOutput: false,
-			speed: 700,
+			// speed: 700,
 		});
 	});
 }
@@ -28,3 +30,12 @@ const galleryInit = () => {
 if(document.querySelectorAll('.gallery')){
 	galleryInit();
 }
+
+// import 'glightbox/dist/js/glightbox';
+// import GLightbox from 'glightbox';
+
+// const lightbox = GLightbox({
+//     touchNavigation: true,
+//     loop: true,
+//     autoplayVideos: true
+// });
