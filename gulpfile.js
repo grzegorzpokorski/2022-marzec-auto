@@ -19,7 +19,7 @@ gulp.task('process-sass', () => {
 		.pipe(autoprefixer({
 			overrideBrowserslist: ['> 1%']
 		}))
-		.pipe(cssnano())
+		// .pipe(cssnano())
 		.pipe(mode.development(sourcemaps.write('./')))
 		.pipe(gulp.dest('dist/css'));
 });
@@ -49,8 +49,8 @@ gulp.task('fontawesome', () => {
 });
 
 gulp.task('main-font', () => {
-	return gulp.src(['./node_modules/manrope/complete/*'])
-		.pipe(gulp.dest('dist/fonts/manrope'));
+	return gulp.src(['./node_modules/@fontsource/poppins/files/*'])
+		.pipe(gulp.dest('dist/fonts/poppins'));
 });
 
 gulp.task('fonts', gulp.series(['fontawesome', 'main-font']));

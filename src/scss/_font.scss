@@ -1,16 +1,15 @@
-// replace with font what you want to use
-// @font-face {
-// 	font-family: 'Open Sans';
-// 	font-style: regular;
-// 	font-weight: 400;
-// 	font-display: swap;
-// 	src: url('./../../dist/fonts/open-sans/open-sans-all-400-normal.woff') format('woff')
-// }
+@font-face {
+	font-family: 'Poppins';
+	font-style: regular;
+	font-weight: 400;
+	font-display: swap;
+	src: url('./../../dist/fonts/poppins/poppins-all-400-normal.woff') format('woff')
+}
 
-// @font-face {
-// 	font-family: 'Open Sans';
-// 	font-style: bold;
-// 	font-weight: 700;
-// 	font-display: swap;
-// 	src: url('./../../dist/fonts/open-sans/open-sans-all-700-normal.woff') format('woff')
-// }
+@font-face {
+	font-family: 'Poppins';
+	font-style: bold;
+	font-weight: 700;
+	font-display: swap;
+	src: url('./../../dist/fonts/poppins/poppins-all-700-normal.woff') format('woff')
+}
