@@ -40,7 +40,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #0F143C;
+  --bs-body-color: rgba(15, 20, 60, 0.8);
   --bs-body-bg: #F6F6F6; }
 
 *,
@@ -79,7 +79,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-bottom: 0.5em;
   font-weight: 700;
   line-height: 1.33;
-  color: #222222; }
+  color: #0F143C; }
 
 h1, .h1 {
   font-size: calc(1.425rem + 2.1vw); }
@@ -94,10 +94,7 @@ h2, .h2 {
       font-size: 2.5rem; } }
 
 h3, .h3 {
-  font-size: calc(1.275rem + 0.3vw); }
-  @media (min-width: 1200px) {
-    h3, .h3 {
-      font-size: 1.5rem; } }
+  font-size: 1.25rem; }
 
 h4, .h4 {
   font-size: 1.17rem; }
@@ -1607,7 +1604,7 @@ progress {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
-  color: #0F143C;
+  color: rgba(15, 20, 60, 0.8);
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -1623,7 +1620,7 @@ progress {
     .btn {
       transition: none; } }
   .btn:hover {
-    color: #0F143C;
+    color: rgba(15, 20, 60, 0.8);
     text-decoration: none; }
   .btn-check:focus + .btn, .btn:focus {
     outline: 0;
@@ -2590,7 +2587,7 @@ progress {
   padding: 0.5rem 0;
   margin: 0;
   font-size: 1rem;
-  color: #0F143C;
+  color: rgba(15, 20, 60, 0.8);
   text-align: left;
   list-style: none;
   background-color: #ffffff;
@@ -2958,7 +2955,7 @@ progress {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #0F143C;
+  color: rgba(15, 20, 60, 0.8);
   background-color: #F6F6F6;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -2974,7 +2971,7 @@ progress {
     .form-control[type="file"]:not(:disabled):not([readonly]) {
       cursor: pointer; }
   .form-control:focus {
-    color: #0F143C;
+    color: rgba(15, 20, 60, 0.8);
     background-color: #F6F6F6;
     border-color: #86b7fe;
     outline: 0;
@@ -2991,7 +2988,7 @@ progress {
     padding: 1em 1.5em;
     margin: -1em -1.5em;
     margin-inline-end: 1.5em;
-    color: #0F143C;
+    color: rgba(15, 20, 60, 0.8);
     background-color: #e9ecef;
     pointer-events: none;
     border-color: inherit;
@@ -3009,7 +3006,7 @@ progress {
     padding: 1em 1.5em;
     margin: -1em -1.5em;
     margin-inline-end: 1.5em;
-    color: #0F143C;
+    color: rgba(15, 20, 60, 0.8);
     background-color: #e9ecef;
     pointer-events: none;
     border-color: inherit;
@@ -3032,7 +3029,7 @@ progress {
   padding: 1em 0;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #0F143C;
+  color: rgba(15, 20, 60, 0.8);
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0; }
@@ -3098,7 +3095,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #0F143C;
+  color: rgba(15, 20, 60, 0.8);
   background-color: #F6F6F6;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -3123,7 +3120,7 @@ textarea.form-control-lg {
     background-color: #e9ecef; }
   .form-select:-moz-focusring {
     color: transparent;
-    text-shadow: 0 0 0 #0F143C; }
+    text-shadow: 0 0 0 rgba(15, 20, 60, 0.8); }
 
 .form-select-sm {
   padding-top: 0.4em;
@@ -3360,7 +3357,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #0F143C;
+  color: rgba(15, 20, 60, 0.8);
   text-align: center;
   white-space: nowrap;
   background-color: #e9ecef;
@@ -4427,7 +4424,7 @@ textarea.form-control-lg {
   font-size: calc(1.375rem + 1.5vw) !important; }
 
 .fs-3 {
-  font-size: calc(1.275rem + 0.3vw) !important; }
+  font-size: 1.25rem !important; }
 
 .fs-4 {
   font-size: 1.17rem !important; }
@@ -6915,9 +6912,7 @@ textarea.form-control-lg {
   .fs-1 {
     font-size: 3rem !important; }
   .fs-2 {
-    font-size: 2.5rem !important; }
-  .fs-3 {
-    font-size: 1.5rem !important; } }
+    font-size: 2.5rem !important; } }
 
 @media print {
   .d-print-inline {
@@ -11567,5 +11562,61 @@ readers do not read off random characters that represent icons */
   font-weight: 700;
   font-display: swap;
   src: url("./../../dist/fonts/poppins/poppins-all-700-normal.woff") format("woff"); }
+
+p:last-child {
+  margin-bottom: 0; }
+
+.list-unstyled {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0; }
+
+.z-index-2 {
+  z-index: 2; }
+
+.z-index-1 {
+  z-index: 1; }
+
+.z-index-2 {
+  z-index: 2; }
+
+.z-index-3 {
+  z-index: 3; }
+
+.z-index-4 {
+  z-index: 4; }
+
+.hero--image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+  .hero--image:after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 20, 60, 0.95);
+    z-index: 1; }
+
+.hero__content {
+  z-index: 2; }
+
+.hero-features {
+  margin-top: -2rem; }
+
+.features {
+  row-gap: 1.5rem; }
+
+.banner--image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+  .banner--image:after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 136, 238, 0.9);
+    z-index: 1; }
 
 /*# sourceMappingURL=style.css.map */
