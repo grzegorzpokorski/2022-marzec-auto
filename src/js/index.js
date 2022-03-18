@@ -10,19 +10,20 @@ const galleryInit = () => {
 
 		const heroSlider = tns({
 			container: slider,
-			controls: false, //
-			nav: false, //
+			controls: true, //
+			nav: true, //
 			controlsContainer: controls,
 			mode: 'carousel',
 			// items: 1,
 			// slideBy: 'page',
 			navPosition: 'bottom',
 			mouseDrag: true,
+			autoWidth: true,
 			autoHeight: true,
 			autoplay: false,
 			// autoplayHoverPause: true,
 			autoplayButtonOutput: false,
-			// speed: 700,
+			speed: 350,
 		});
 	});
 }

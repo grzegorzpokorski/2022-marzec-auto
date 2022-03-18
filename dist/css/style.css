@@ -11933,4 +11933,40 @@ p:last-child {
     .single__price-box {
       margin-bottom: 0; } }
 
+.gallery__thumbnail-wrapper {
+  display: block;
+  overflow: hidden; }
+
+.gallery__thumbnail {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 28.125rem;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.gallery__controls {
+  position: absolute;
+  top: 50%;
+  left: -0.75rem;
+  right: -0.75rem;
+  transform: translateY(-50%);
+  z-index: 2; }
+
+.gallery__nav-item {
+  background-color: #0088EE;
+  color: #ffffff;
+  line-height: 3rem;
+  text-align: center;
+  border: none;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  transition: background-color .35s; }
+  .gallery__nav-item:hover {
+    background-color: #0F143C; }
+
+.gallery .tns-nav {
+  display: none; }
+
 /*# sourceMappingURL=style.css.map */

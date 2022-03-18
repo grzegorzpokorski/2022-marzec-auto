@@ -1,0 +1,43 @@
+.gallery{
+	&__thumbnail-wrapper{
+		display: block;
+		overflow: hidden;
+	}
+
+	&__thumbnail{
+		display: block;
+		width: 100%;
+		height: auto;
+		max-height: 28.125rem;
+		object-fit: cover;
+	}
+
+	&__controls{
+		position: absolute;
+		top: 50%;
+		left: $spacer * -.75;
+		right: $spacer * -.75;
+		transform: translateY(-50%);
+		z-index: 2;
+	}
+
+	&__nav-item{
+		background-color: $blue-secondary;
+		color: $white;
+		line-height: $spacer * 3;
+		text-align: center;
+		border: none;
+		border-radius: 50%;
+		height: $spacer * 3;
+		width: $spacer * 3;
+		transition: background-color .35s;
+
+		&:hover{
+			background-color: $blue-primary;
+		}
+	}
+
+	& .tns-nav{
+		display: none;
+	}
+}
