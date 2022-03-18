@@ -12002,4 +12002,20 @@ p:last-child {
 .gallery .tns-nav {
   display: none; }
 
+.archive {
+  row-gap: 2rem; }
+  .archive__image-wrapper {
+    overflow: hidden;
+    max-height: 21.875rem; }
+  .archive__image {
+    position: relative;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 50%;
+       object-position: 50% 50%;
+    width: 100%;
+    transition: transform .35s; }
+    .archive__image:hover {
+      transform: scale(1.2); }
+
 /*# sourceMappingURL=style.css.map */
