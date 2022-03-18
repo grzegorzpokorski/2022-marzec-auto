@@ -20,9 +20,6 @@ const galleryInit = () => {
 			autoWidth: true,
 			autoHeight: true,
 			speed: 350,
-			autoplay: true,
-			autoplayHoverPause: true,
-			autoplayButtonOutput: false,
 
 			responsive: {
 				768: {
