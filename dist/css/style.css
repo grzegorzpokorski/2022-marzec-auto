@@ -11889,6 +11889,11 @@ p:last-child {
 
 .features {
   row-gap: 1.5rem; }
+  .features__cat-link {
+    background-color: rgba(0, 136, 238, 0.6);
+    transition: background-color .35s; }
+    .features__cat-link:hover, .features__cat-link:focus {
+      background-color: rgba(0, 136, 238, 0.8); }
 
 .banner--image {
   background-repeat: no-repeat;
