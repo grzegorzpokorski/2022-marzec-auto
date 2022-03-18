@@ -10,8 +10,8 @@ const galleryInit = () => {
 
 		const heroSlider = tns({
 			container: slider,
-			controls: true, //
-			nav: true, //
+			controls: true,
+			nav: true,
 			controlsContainer: controls,
 			mode: 'carousel',
 			slideBy: 'page',
@@ -19,9 +19,13 @@ const galleryInit = () => {
 			mouseDrag: true,
 			autoWidth: true,
 			autoHeight: true,
-			autoplay: false,
-			autoplayButtonOutput: false,
 			speed: 350,
+
+			responsive: {
+				768: {
+					autoWidth: false,
+				},
+			}
 		});
 	});
 }
