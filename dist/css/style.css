@@ -11941,7 +11941,8 @@ p:last-child {
 .gallery__thumbnail-wrapper {
   display: block;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  z-index: 1; }
   .gallery__thumbnail-wrapper:after {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
@@ -11976,14 +11977,15 @@ p:last-child {
   top: 50%;
   left: 1.25rem;
   right: 1.25rem;
-  transform: translateY(-50%);
-  z-index: 2; }
+  z-index: 1; }
   @media (min-width: 768px) {
     .gallery__controls {
       left: -0.75rem;
       right: -0.75rem; } }
 
 .gallery__nav-item {
+  transform: translateY(-50%);
+  display: inline-block;
   background-color: #0088EE;
   color: #ffffff;
   line-height: 3rem;
@@ -11992,7 +11994,8 @@ p:last-child {
   border-radius: 50%;
   height: 3rem;
   width: 3rem;
-  transition: background-color .35s; }
+  transition: background-color .35s;
+  z-index: 3; }
   .gallery__nav-item:hover {
     background-color: #0F143C; }
 

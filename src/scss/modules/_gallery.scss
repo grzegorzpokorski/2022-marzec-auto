@@ -3,6 +3,7 @@
 		display: block;
 		overflow: hidden;
 		position: relative;
+		z-index: 1;
 
 		&:after{
 			font-family: 'Font Awesome 5 Free';
@@ -41,8 +42,7 @@
 		top: 50%;
 		left: $spacer * 1.25;
 		right: $spacer * 1.25;
-		transform: translateY(-50%);
-		z-index: 2;
+		z-index: 1;
 
 		@include media-breakpoint-up(md){
 			left: $spacer * -.75;
@@ -51,6 +51,8 @@
 	}
 
 	&__nav-item{
+		transform: translateY(-50%);
+		display: inline-block;
 		background-color: $blue-secondary;
 		color: $white;
 		line-height: $spacer * 3;
@@ -60,6 +62,7 @@
 		height: $spacer * 3;
 		width: $spacer * 3;
 		transition: background-color .35s;
+		z-index: 3;
 
 		&:hover{
 			background-color: $blue-primary;
