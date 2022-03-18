@@ -14,14 +14,12 @@ const galleryInit = () => {
 			nav: true, //
 			controlsContainer: controls,
 			mode: 'carousel',
-			// items: 1,
-			// slideBy: 'page',
+			slideBy: 'page',
 			navPosition: 'bottom',
 			mouseDrag: true,
 			autoWidth: true,
 			autoHeight: true,
 			autoplay: false,
-			// autoplayHoverPause: true,
 			autoplayButtonOutput: false,
 			speed: 350,
 		});

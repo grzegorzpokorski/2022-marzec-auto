@@ -2,14 +2,19 @@
 	&__thumbnail-wrapper{
 		display: block;
 		overflow: hidden;
+		position: relative;
 	}
 
 	&__thumbnail{
-		display: block;
+		// // position: absolute;
+		// top: 50%;
+		// left: 50%;
+		// transform: translate(50%, 50%);
 		width: 100%;
 		height: auto;
 		max-height: 28.125rem;
 		object-fit: cover;
+		object-position: center;
 	}
 
 	&__controls{

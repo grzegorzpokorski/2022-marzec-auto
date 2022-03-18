@@ -11935,15 +11935,17 @@ p:last-child {
 
 .gallery__thumbnail-wrapper {
   display: block;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative; }
 
 .gallery__thumbnail {
-  display: block;
   width: 100%;
   height: auto;
   max-height: 28.125rem;
   -o-object-fit: cover;
-     object-fit: cover; }
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center; }
 
 .gallery__controls {
   position: absolute;
