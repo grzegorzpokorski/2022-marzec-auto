@@ -6,7 +6,7 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="./dist/css/style.css">
 </head>
-<body>
+<body data-aos-easing="ease-out-back" data-aos-duration="1000" data-aos-delay="0">
 
 <nav class="navbar navbar-expand-lg navbar-light bg-white py-1 py-md-2">
 	<div class="container">
@@ -189,10 +189,10 @@
 	<section class="mt-md-7 banner banner--image text-center text-md-start" style="background-image: url('./dist/img/hero-1900w.webp');">
 		<div class="container">
 			<div class="row position-relative">
-				<div class="d-none d-md-block col-12 col-md-4 z-index-2 banner__image-wrapper">
+				<div class="d-none d-md-block col-12 col-md-4 z-index-2 banner__image-wrapper" data-aos="fade-up">
 					<img src="./dist/img/hand-with-keys-1900w.webp" alt="hand with keys" class="banner__image">
 				</div>
-				<div class="col-12 col-md-8 ms-auto py-4 z-index-2">
+				<header class="col-12 col-md-8 ms-auto py-4 z-index-2">
 					<h2 class="text-white">
 						Już dzisiaj znajdź dla siebie wymażone auto!
 					</h2>
@@ -201,6 +201,105 @@
 							Zobacz naszą ofertę
 						</a>
 					</div>
+				</header>
+			</div>
+		</div>
+	</section>
+
+	<section class="bg-blue-primary text-white py-4 pb-8">
+		<div class="container">
+			<div class="row justify-content-center">
+				<header class="col-md-8 order-1">
+					<h2 class="text-white">
+						Zobacz polecane modele
+					</h2>
+				</header>
+				<div class="col order-2 order-md-3">
+					<ul class="list-unstyled mb-md-0 mt-2 row px-0 align-items-stretch">
+						<li class="col-md-4 mt-1">
+							<article class="bg-white h-100">
+								<a href="#">
+									<figure class="d-block mb-0 archive__image-wrapper">
+										<img src="./dist/img/ferrari-1900w.webp" alt="image" class="archive__image">
+									</figure>
+								</a>
+								<div class="p-2">
+									<header>
+										<a href="#">
+											<h3>
+												Ferrari CALIFORNIA 2+2 4.3 V8 490KM BEZWYPADKOWA NIEMALOWANA SERWIS ASO
+											</h3>
+										</a>
+									</header>
+									<footer class="d-flex flex-row flex-wrap gap-05 justify-content-center justify-content-md-start">
+										<span class="btn btn-blue-secondary text-white pe-none">
+											599 000 zł
+										</span>
+										<a href="#" class="btn btn-outline-blue-primary">
+											Szczegóły
+										</a>
+									</footer>
+								</div>
+							</article>
+						</li>
+						<li class="col-md-4 mt-1">
+							<article class="bg-white h-100">
+								<a href="#">
+									<figure class="d-block mb-0 archive__image-wrapper">
+										<img src="./dist/img/4-1900w.webp" alt="image" class="archive__image">
+									</figure>
+								</a>
+								<div class="p-2">
+									<header>
+										<a href="#">
+											<h3>
+												Mercedes-Benz S500 4Matic V8bi-turbo 456KM AMG serwis ASO
+											</h3>
+										</a>
+									</header>
+									<footer class="d-flex flex-row flex-wrap gap-05 justify-content-center justify-content-md-start">
+										<span class="btn btn-blue-secondary text-white pe-none">
+											599 000 zł
+										</span>
+										<a href="#" class="btn btn-outline-blue-primary">
+											Szczegóły
+										</a>
+									</footer>
+								</div>
+							</article>
+						</li>
+						<li class="col-md-4 mt-1">
+							<article class="bg-white h-100">
+								<a href="#">
+									<figure class="d-block mb-0 archive__image-wrapper">
+										<img src="./dist/img/ferrari-1900w.webp" alt="image" class="archive__image">
+									</figure>
+								</a>
+								<div class="p-2">
+									<header>
+										<a href="#">
+											<h3>
+												Ferrari CALIFORNIA 2+2 4.3 V8 490KM BEZWYPADKOWA NIEMALOWANA SERWIS ASO
+											</h3>
+										</a>
+									</header>
+									<footer class="d-flex flex-row flex-wrap gap-05 justify-content-center justify-content-md-start">
+										<span class="btn btn-blue-secondary text-white pe-none">
+											599 000 zł
+										</span>
+										<a href="#" class="btn btn-outline-blue-primary">
+											Szczegóły
+										</a>
+									</footer>
+								</div>
+							</article>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-4 order-3 order-md-2 bg-primary text-center text-md-end">
+					<a href="#" class="btn btn-blue-secondary text-white mt-2 mt-md-0">
+						Zobacz całą ofertę
+					</a>
 				</div>
 			</div>
 		</div>

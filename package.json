@@ -30,6 +30,7 @@
 	},
 	"dependencies": {
 		"@fontsource/poppins": "^4.5.3",
+		"aos": "^2.3.4",
 		"glightbox": "^3.2.0",
 		"tiny-slider": "^2.9.4"
 	}
