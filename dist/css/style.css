@@ -12069,59 +12069,54 @@ p:last-child {
 .gallery .tns-nav {
   display: none; }
 
-.archive__image-wrapper {
-  display: block;
-  overflow: hidden;
-  width: 100%;
-  height: 17.5rem; }
-
-.archive__image-wrapper:hover .archive__image,
-.archive__image-wrapper:focus .archive__image {
-  transform: scale(1.08); }
-
-.archive__image {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  transition: all .35s; }
-
-.archive__list {
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  column-gap: 2rem;
-  position: relative; }
-
-.archive__list-item {
-  position: relative;
-  color: #87899d; }
-  .archive__list-item:after {
-    content: '';
-    position: absolute;
-    width: .1875rem;
-    height: .1875rem;
-    background-color: #0F143C;
-    top: 50%;
-    transform: translateY(-50%);
-    right: -1rem;
-    border-radius: 50%; }
-  .archive__list-item:last-child:after {
-    display: none; }
-
-.archive__footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-
-.archive__price {
-  font-weight: 700;
-  color: #0F143C; }
-
-.archive__price-type {
-  color: #87899d; }
+.archive {
+  row-gap: 1rem; }
+  .archive__image-wrapper {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 17.5rem; }
+  .archive__image-wrapper:hover .archive__image,
+  .archive__image-wrapper:focus .archive__image {
+    transform: scale(1.08); }
+  .archive__image {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    transition: all .35s; }
+  .archive__list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    position: relative; }
+  .archive__list-item {
+    position: relative;
+    color: #87899d; }
+    .archive__list-item:after {
+      content: '';
+      position: absolute;
+      width: .1875rem;
+      height: .1875rem;
+      background-color: #0F143C;
+      top: 50%;
+      transform: translateY(-50%);
+      right: -1rem;
+      border-radius: 50%; }
+    .archive__list-item:last-child:after {
+      display: none; }
+  .archive__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .archive__price {
+    font-weight: 700;
+    color: #0F143C; }
+  .archive__price-type {
+    color: #87899d; }
 
 .custom-content {
   column-count: 1;
